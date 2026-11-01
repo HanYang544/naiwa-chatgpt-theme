@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 4,
+  "kind": "theme",
+  "appearance": "light",
+  "id": "naiwa-cream",
+  "name": "奶娃 · 奶黄大肚",
+  "description": "奶黄色底、深棕文字，右侧小头大肚奶娃装饰。",
+  "version": "1.0.0",
+  "author": "Personal theme",
+  "metadata": {
+    "homepage": "https://github.com/HanYang544/naiwa"
+  },
+  "assets": {
+    "portrait": "assets/naiwa.png",
+    "background": "assets/background.png"
+  },
+  "colors": {
+    "textSecondary": "#61462D",
+    "warning": "#805400",
+    "link": "#884900",
+    "secondary": "#A05A12",
+    "codeText": "#432B1B",
+    "panel": "#FFF6D9",
+    "border": "#C99F54",
+    "inputText": "#432B1B",
+    "text": "#432B1B",
+    "info": "#345C79",
+    "placeholder": "#73583B",
+    "success": "#32613A",
+    "muted": "#73583B",
+    "accent": "#9A5500",
+    "danger": "#A62E2E"
+  },
+  "typography": {
+    "uiFamily": "Microsoft YaHei UI",
+    "codeFamily": "Cascadia Code",
+    "scale": 1,
+    "uiSize": 14,
+    "codeSize": 13,
+    "uiWeight": 500,
+    "codeWeight": 400,
+    "lineHeight": 1.5,
+    "displayFamily": "Microsoft YaHei UI",
+    "displaySize": 28,
+    "displayWeight": 500,
+    "displayLineHeight": 1.5,
+    "displayLetterSpacing": 0
+  },
+  "background": {
+    "positionX": 0.5,
+    "positionY": 0.5,
+    "scale": 1,
+    "blur": 0,
+    "brightness": 1,
+    "overlay": 0,
+    "safeArea": "left",
+    "taskMode": "full",
+    "taskOpacity": 0.06
+  },
+  "surfaces": {
+    "baseOpacity": 0.96,
+    "elevatedOpacity": 0.98,
+    "terminalOpacity": 1,
+    "blur": 0
+  },
+  "decorations": [],
+  "layout": {
+    "heroHeight": 380,
+    "cardColumns": 4,
+    "composerWidth": 0.74,
+    "sidebarDensity": "comfortable",
+    "moduleGap": 16,
+    "modules": [
+      {
+        "id": "sidebar",
+        "order": 0,
+        "visible": true,
+        "size": "regular",
+        "align": "stretch",
+        "spacing": 12
+      },
+      {
+        "id": "topbar",
+        "order": 1,
+        "visible": true,
+        "size": "regular",
+        "align": "stretch",
+        "spacing": 12
+      },
+      {
+        "id": "hero",
+        "order": 2,
+        "visible": true,
+        "size": "expanded",
+        "align": "stretch",
+        "spacing": 16
+      },
+      {
+        "id": "suggestions",
+        "order": 3,
+        "visible": true,
+        "size": "regular",
+        "align": "stretch",
+        "spacing": 16
+      },
+      {
+        "id": "project-picker",
+        "order": 4,
+        "visible": true,
+        "size": "regular",
+        "align": "stretch",
+        "spacing": 16
+      },
+      {
+        "id": "composer",
+        "order": 5,
+        "visible": true,
+        "size": "regular",
+        "align": "center",
+        "spacing": 12
+      },
+      {
+        "id": "task-background",
+        "order": 6,
+        "visible": true,
+        "size": "regular",
+        "align": "stretch",
+        "spacing": 0
+      },
+      {
+        "id": "content-layer",
+        "order": 7,
+        "visible": true,
+        "size": "regular",
+        "align": "stretch",
+        "spacing": 12
+      }
+    ]
+  },
+  "rights": {
+    "licenseId": "LicenseRef-User-Supplied",
+    "attribution": "HanYang544/naiwa 提供的角色素材；未发现明确的再分发授权，仅作本地个人使用。",
+    "source": "https://github.com/HanYang544/naiwa",
+    "localOnly": true
+  },
+  "interfaceImages": {
+    "profileAvatarSize": 24,
+    "suggestionIconSize": 20,
+    "projectIconSize": 16
+  },
+  "composition": {
+    "layers": [
+      {
+        "width": 0.2,
+        "required": true,
+        "positionY": 0.98,
+        "id": "naiwa-hero",
+        "rotation": 0,
+        "asset": {
+          "kind": "portrait"
+        },
+        "opacity": 0.9,
+        "positionX": 0.98,
+        "anchor": "bottom-right",
+        "surface": "home-hero"
+      }
+    ]
+  }
+}
